@@ -68,13 +68,6 @@
             <artifactId>log4j-web</artifactId>
             <version>2.14.1</version>
         </dependency>
-        <dependency>
-            <groupId>org.glassfish.web</groupId>
-            <artifactId>jakarta.servlet.jsp.jstl</artifactId>
-            <version>2.0.0</version>
-        </dependency>
-
-
     </dependencies>
 
     <build>
@@ -166,6 +159,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
+                <version>0.8.6</version>
                 <reportSets>
                     <reportSet>
                         <reports>

@@ -79,7 +79,6 @@ public class TaskCookieAndSessions extends HttpServlet {
         Sessions.saveSessions(req, AGE, ageVal);
 
         writeWeb(firstNameVal, lastNameVal, ageVal, resp);
-
     }
 
     /**

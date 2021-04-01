@@ -5,4 +5,8 @@
          metadata-complete="false">
     <display-name>JD2-78-21/HomeWork1</display-name>
 
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+    </welcome-file-list>
+
 </web-app>
